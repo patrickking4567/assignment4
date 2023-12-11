@@ -1,0 +1,90 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+header {
+    background-color: #302b32b8;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.search-container {
+    background-color: #fff;
+    padding: 19px;
+    box-shadow: 0 0 10px rgb(20 15 87 / 84%);
+    border-radius: 109px;
+    margin: 59px auto;
+    max-width: 453px;
+    text-align: center;
+}
+
+#elementSearch {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+#elementSearch:focus {
+    border-color: #4CAF50;
+}
+
+#searchButton {
+    background-color: #4c8faf;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#searchButton:hover {
+    background-color: #45a049;
+}
+#apibutton{
+    padding: 15px;
+}
+
+#backButton {
+    background-color: rgb(26 170 100);
+    color: white;
+    padding: 8px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#backButton:hover {
+    background-color: #555;
+}
+
+
+#elementInfo {
+    padding: 20px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(111 31 59) 0px 0px 10px;
+    max-width: 450px;
+    margin: 20px auto;
+    text-align: center;
+    transition: box-shadow 0.3s ease 0s;
+}
+
+#elementInfo:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
